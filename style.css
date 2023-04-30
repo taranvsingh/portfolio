@@ -73,7 +73,7 @@ header {
   margin-top: 20px;
 
   position: relative;
-  height: 250px;
+  height: 230px;
   width: 500px;
   
   display: flex;
@@ -104,7 +104,7 @@ header {
   justify-content: space-evenly;
   color: var(--fc-primary);
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   
 }
@@ -160,7 +160,7 @@ footer{
 .Nav_contacts {
   color: var(--fc-primary);
   font-family: sans-serif;
-  font-size: 1.5em;
+  font-size: 1.7em;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
