@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap');
+
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Remove default margin and padding */
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set default font size and line height */
+  html {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Remove list styles (bullets, numbering) */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove hyperlinks underline */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Reset form elements */
+  button, input, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+  
+  /* Remove outline on focused elements */
+  :focus {
+    outline: none;
+  }
+
+  a {
+    color: inherit; /* Inherit the color of the parent element */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  
+
+/* MAIN CODE */
+
+:root {
+  --ff-title : 'Dancing Script', cursive;
+  --fc-primary : rgb(100, 145, 207);
+  --fc-secondary : rgb(176, 208, 250);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 0 auto;
+}
+
+.User_discription {
+  width: 100%;
+  margin-top: 20px;
+
+  position: relative;
+  height: 250px;
+  width: 500px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.User_profile {
+    border-radius: 50%;
+    height: 100%;
+    width: auto;
+}
+
+.User_title {
+    font-family: var(--ff-title);
+    font-size: 4em;
+    color: var(--fc-primary);
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    transform: rotate(-10deg);
+}
+
+.Nav_section {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--fc-primary);
+  font-family: sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+.Nav_item_active {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+}
+
+.Nav_item:hover {
+  color: rgb(34, 101, 194);
+}
+
+.Nav_item_active:hover {
+  color: var(--fc-primary);
+}
+
+.Home_container {
+  margin: 20px auto;
+  padding: 40px;
+  width: 650px;
+  
+  background-color: var(--fc-primary);
+  font-family: sans-serif;
+  
+  font-weight: 400;
+  color: white;
+}
+
+span {
+  font-family: var(--ff-title);
+  color: white;
+  display: block;
+  margin: 20px auto;
+  font-size: 2em;
+}
+
+.get_in_contact {
+  color: var(--fc-secondary);
+  font-weight: 600;
+}
+
+.get_in_contact:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
+footer{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.Nav_contacts {
+  color: var(--fc-primary);
+  font-family: sans-serif;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
