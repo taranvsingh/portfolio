@@ -10,38 +10,55 @@
   </head>
   <body>
     <header>
-      <div class="User_discription">
-        <img class="User_profile" src="profile_picture.png" alt="" srcset="" />
-        <h1 class="User_title">Taranveer Singh</h1>
+      <!-- Text over image -->
+      <div class="user-container">
+        <img class="user-icon" src="user-icon.png" alt="" srcset="">
+        <div class="user-icon-text">
+          <h1>Taranveer Singh</h1>
+        </div>
       </div>
 
-      <nav class="Nav_section">
-        <a class="Nav_item Nav_item_active" href="#">Home</a>
-        <a class="Nav_item" href="#">Work</a>
-        <a class="Nav_item" href="#">Project</a>
-        <a class="Nav_item" href="#">Contact</a>
+      <!-- Navigation  -->
+      <nav class="nav-container">
+        <ul class="nav-items">
+          <li class="nav-item nav-item-active"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">Work</a></li>
+          <li class="nav-item"><a href="#">Project</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
       </nav>
     </header>
+      <!-- Main Section -->
+      
+      <!-- HOME -->
+      <section class="info-block home-block">
+        <p class="info-block-description"><span> Hello and welcome to my portfolio website! </span> I'm a 3rd year computer science student at <a href="https://umanitoba.ca/">University of Manitoba</a> with a strong passion for web development, data analysis, and network security. On my website, you'll find examples of my work in these areas, showcasing my skills and expertise. Whether you're interested in my projects, exploring my skills and experience, or just looking to connect, I invite you to take a look around and feel free to <a href="#">get in touch. </a> <span> Thanks for stopping by!</span></p>
+      </section>
 
-    <section class="Home_container">
-        <p><span> Hello and welcome to my portfolio website! </span> I'm a 3rd year computer science student at <a class="get_in_contact">University of Manitoba</a> school with a strong passion for web development, data analysis, and network security. On my website, you'll find examples of my work in these areas, showcasing my skills and expertise. Whether you're interested in my projects, exploring my skills and experience, or just looking to connect, I invite you to take a look around and feel free to <a class="get_in_contact">get in touch. </a> <span> Thanks for stopping by!</span></p>
-    </section>
-    <section class="Work_container">
+      <!-- WORK -->
+      <section class="info-block info-block-active work-block">
+        <ul class="work-block-items">
+          <li class="work-block-item">
+            <div class="work-block-item-icon"></div>
+            <h2 class="work-block-item-title"></h2>
+            <p class="work-block-item-description"></p>
+          </li>
+        </ul>
+      </section>
 
-    </section>
-    <section class="Project_container">
-        
-    </section>
-    <section class="Contact_container">
-        
-    </section>
-    
-    <footer>
-        <nav class="Nav_contacts">
-            <a class="Nav_item" href="https://www.linkedin.com/in/taranvsingh/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-            <a class="Nav_item" href="https://github.com/taranvsingh"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a class="Nav_item" href="https://twitter.com/taranvsingh"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        </nav>
+      <!-- PROJECT -->
+      <section class="info-block project-block"></section>
+      
+      <!-- CONTACT -->
+      <section class="info-block contact-block"></section>
+
+    <footer class="contact-container">
+      <!-- Contact Items -->
+      <ul class="contact-items">
+        <li class="contact-item"><a href="https://www.linkedin.com/in/taranvsingh"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li class="contact-item"><a href="https://github.com/taranvsingh"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        <li class="contact-item"><a href="https://twitter.com/taranvsingh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      </ul>
     </footer>
   </body>
 </html>
